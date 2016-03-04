@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Coffee Duties</title>
+</head>
+
+<body ng-app="myapp">
+	<h1>Coffee duties</h1>
+	<h2>Who doesn't serve, dies!</h2>
+
+	<a ui-sref="app.duties">Duties</a>
+	<a ui-sref="app.about">About</a>
+
+	<div ui-view></div>
+
+	<!-- bower:js -->
+	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-touch/angular-touch.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+	<script src="bower_components/angular-cookies/angular-cookies.js"></script>
+	<!-- endbower -->
+
+	<script src="scripts/app.js"></script>
+	<script src="scripts/coffeeDutyService.js"></script>
+	<script src="scripts/CoffeeDutyController.js"></script>
+</body>
+
+</html>

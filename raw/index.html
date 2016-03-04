@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Coffee Duties</title>
+</head>
+
+<body ng-app="myapp">
+	<h1>Coffee duties</h1>
+	<h2>Who doesn't serve, dies!</h2>
+
+	<a ui-sref="app.duties">Duties</a>
+	<a ui-sref="app.about">About</a>
+
+	<div ui-view></div>
+
+	<script src="/scripts/vendor/angular.js"></script>
+	<script src="/scripts/vendor/angular-ui-router.js"></script>
+
+	<script src="/scripts/app.js"></script>
+	<script src="/scripts/coffeeDutyService.js"></script>
+	<script src="/scripts/CoffeeDutyController.js"></script>
+</body>
+
+</html>
