@@ -2,6 +2,8 @@
 
 A training session for Frontend tooling & automation
 
+http://slides.com/ronnyhaase/fe-buildtools
+
 ## Tasks
 1. Provide possibility to run development source via a zero-configuration HTTP server
 - Manage the vendor packages and dependencies automatically with a tool
