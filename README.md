@@ -1,5 +1,16 @@
 # FE build tools
 
+**DEPRECATED** _The information and tools are 7 years old, and therefor should be considered deprecated._
+
+_The repo is only kept for reference._
+
+.
+
+.
+
+.
+
+
 A training session for Frontend tooling & automation
 
 http://slides.com/ronnyhaase/fe-buildtools
